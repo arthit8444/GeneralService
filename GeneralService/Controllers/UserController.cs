@@ -12,7 +12,7 @@ namespace GeneralService.Controllers
     {
 
         [HttpGet("UsersInfo")]
-        [ProducesResponseType<IEnumerable<UsersResponse>>(StatusCodes.Status200OK)]
+        [Produces(typeof(UsersResponse))]
         public IActionResult All()
         //public IEnumerable<UsersResponse> All()
         {
