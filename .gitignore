@@ -3,4 +3,5 @@
 ################################################################################
 
 .vs/
-GeneralService/obj/Debug
+/GeneralService/obj/Debug
+/GeneralService/bin
