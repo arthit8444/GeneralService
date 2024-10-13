@@ -12,7 +12,6 @@ namespace GeneralService.Controllers
     {
 
         [HttpGet("UsersInfo")]
-        [Produces(typeof(UsersResponse))]
         public IActionResult All()
         //public IEnumerable<UsersResponse> All()
         {
