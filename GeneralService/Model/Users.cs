@@ -10,6 +10,5 @@
 
         public string Email { get; set; }
 
-        public int UserID { get; set; }
     }
 }
